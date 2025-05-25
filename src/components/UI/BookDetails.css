@@ -1,0 +1,128 @@
+.book-details-container {
+    background-color: #424530;
+    color: #ffefcd;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .book-details-card {
+    background-color: #424530;
+    border: 1px solid #a58e74;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 10px;
+  }
+
+  .book-details-cover {
+    max-width: 35rem;
+    width: 100%;
+  }
+  
+  .book-details-image {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    border: 1px solid #a58e74;
+    background: #2f2f2f;
+  }
+  
+  .book-details-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+  }
+  
+  .book-details-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ffefcd;
+  }
+  
+  .book-details-subtitle {
+    font-size: 1.3rem;
+    color: #a58e74;
+    margin-bottom: 16px;
+  }
+  
+  .book-details-author,
+  .book-details-year,
+  .book-details-language,
+  .book-details-description {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .book-details-description {
+    color: #ddddcc;
+  }
+  
+  .add-book-btn {
+    margin-top: auto;
+    padding: 12px 20px;
+    background-color: #e09132;
+    color: #ffefcd;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-book-btn:hover {
+    background-color: #cc7d1e;
+  }
+  
+  .add-book-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .back-button,
+  .borrow-button {
+    background-color: transparent;
+    border: 2px solid #e09132;
+    color: #e09132;
+    padding: 5px 12px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 4rem;
+    letter-spacing: 0.2rem;
+  }
+  
+  .back-button:hover {
+    background-color: #e09132;
+    color: #ffefcd;
+  }
+  .book-title{
+    margin: 2rem 0rem;
+    color: #ffefcd;
+    text-transform: uppercase;
+    text-align: center;
+  }
+ p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
+h1{
+    margin: 2rem 0.5rem !important;
+}
+
+.borrow-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

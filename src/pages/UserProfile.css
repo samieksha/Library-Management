@@ -1,0 +1,108 @@
+/* UserProfile.css */
+
+.user-profile {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffefcd; /* ivory */
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424530; /* green */
+    box-shadow: 0 4px 8px rgba(165, 142, 116, 0.3); /* subtle beige shadow */
+  }
+  
+  .welcome-msg {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e09132; /* yellow */
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .borrowed-books h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #a58e74; /* beige */
+    padding-bottom: 0.3rem;
+  }
+  
+  .no-books {
+    font-style: italic;
+    color: #a58e74; /* beige */
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff9e6; /* very light ivory */
+    border: 1px solid #a58e74; /* beige border */
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 4px rgba(66, 69, 48, 0.1); /* subtle green shadow */
+  }
+  
+  .book-info {
+    max-width: 70%;
+  }
+  
+  .due-date {
+    color: #e09132; /* yellow */
+    margin: 0.2rem 0 0;
+    font-weight: 600;
+  }
+  
+  .return-btn {
+    background-color: #e09132; /* yellow */
+    color: #ffefcd; /* ivory text */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .return-btn:hover {
+    background-color: #a58e74; /* beige */
+  }
+  
+  .borrow-link,
+  .view-all-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #424530;
+    font-style: italic;
+  }
+  
+  .borrow-link a,
+  .view-all-link a {
+    text-decoration: none;
+    color: #424530; /* green */
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .borrow-link a:hover,
+  .view-all-link a:hover {
+    border-bottom: 2px solid #e09132;
+  }
+  
+  .divider {
+    margin: 2rem 0 1rem;
+    border: none;
+    border-top: 2px solid #a58e74;
+  }
+  .borrow-link a {
+    color: #e09132;
+    font-weight: bold;
+    font-style: normal;
+  }
