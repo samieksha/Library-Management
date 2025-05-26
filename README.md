@@ -1,44 +1,54 @@
-# Project Structure
-src/
-├── api/
-│ └── userService.jsx
-│ └── GetBookDetails.jsx
-│ └── GetBooksAPIData.jsx
-├── components/
-│ ├── LoginSignUp/
-│ │ ├── LoginSignup.jsx
-│ │ ├── LoginSignup.css
-│ │ └── ChangePassword.jsx
-│ ├── Book/
-│ │ ├── BookList.jsx
-│ │ └── BookDetails.jsx
-│ │ └── BookDetails.css
-│ └── UI/
-│ └── Modal.jsx
-│ └── Book.css
-│ └── Book.jsx
-│ └── BookRow.css
-│ └── BookRow.jsx
-│ └── Layout/
-│ └── AuthNavItem.css
-│ └── AuthNavItem.jsx
-│ └── Footer.jsx
-│ └── Header.jsx
-│ └── LibraryLayout.jsx
-├── context/
-│ └── UserContext.jsx
-├── pages/
-│ └── Browse.jsx
-│ └── Contact.jsx
-│ └── ErrorPage.jsx
-│ └── Home.jsx
-│ └── UserProfile.css
-│ └── UserProfile.jsx
-│ └── about.jsx
-├── App.jsx
-├── index.css
-├── App.css
-├── main.jsx
+# Project Structure       
++---public
+|       contactUs.svg
+|       heroSection.svg
+|       
+\---src
+    |   App.css
+    |   App.jsx
+    |   index.css
+    |   main.jsx
+    |   
+    +---api
+    |       BookService.jsx
+    |       GetBookDetails.jsx
+    |       GetBooksAPIData.jsx
+    |       userService.jsx
+    |       
+    +---assets
+    +---components
+    |   +---layout
+    |   |       AuthNavItem.css
+    |   |       AuthNavItem.jsx
+    |   |       Footer.jsx
+    |   |       Header.jsx
+    |   |       LibraryLayout.jsx
+    |   |       
+    |   +---LoginSignUp
+    |   |       ChangePassword.jsx
+    |   |       LoginSignup.css
+    |   |       LoginSignUp.jsx
+    |   |       
+    |   \---UI
+    |           Book.css
+    |           Book.jsx
+    |           BookDetails.css
+    |           BookDetails.jsx
+    |           BookRow.css
+    |           BookRow.jsx
+    |           Modal.jsx
+    |           
+    +---context
+    |       UserContext.jsx
+    |       
+    \---pages
+            about.jsx
+            Browse.jsx
+            Contact.jsx
+            ErrorPage.jsx
+            Home.jsx
+            UserProfile.css
+            UserProfile.jsx
 
 # User Flow
 Login or Sign Up
